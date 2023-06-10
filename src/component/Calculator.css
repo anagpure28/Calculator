@@ -1,0 +1,82 @@
+#heading {
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+  #heading > p{  
+    font-size: 50px; 
+    font-weight: bold; 
+    color: teal;
+  }
+  .calculator{
+    width: 60%;
+    height: 450px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    /* border: 1px solid black; */
+  }
+  .inner{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    /* border: 1px solid black; */
+  }
+  .card{
+    width: 75%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    /* flex-wrap: wrap; */
+    gap: 10px;
+  }
+  .card > div:nth-child(1){
+    height: 70px;
+    /* border: 1px solid black;  */
+    border-radius: 10px; 
+    grid-column-start: 1;
+    grid-column-end: 5; 
+    /* margin-bottom: -40px; */
+  }
+  input{
+    height: 65px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+    width: 100%;
+    border: none;
+  }
+  .card > div{
+    text-align: right;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  }
+  .card > button, .card > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+  button:hover{
+    box-shadow: rgba(10, 10, 10, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  }
+  .black{
+    color: white;
+    background-color: black;
+  }
+  .red{
+    color: white;
+    background-color: red;
+  }
+  
